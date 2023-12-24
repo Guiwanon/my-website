@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#checkInForm {
+    margin-bottom: 20px;
+}
+#checkInForm label{
+    color: aliceblue;
+}
+#checkInForm input{
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+#checkInTable h2{
+    color: aliceblue;
+}
+
+table, th, td {
+    border: 1px solid gray;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: black;
+    color: aliceblue;
+}
+.all{
+    width: 50%;
+    margin-top: 5%;
+    margin-left:25%;
+
+}
+.all button{
+    background-color: rgb(26, 206, 26);
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}
+.bg{
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    margin-top: -10%;
+    margin-left: -20px;
+}
+#checkInRecords{
+    color: rgb(43, 167, 43);
+}
+.logo h1{
+    color: aliceblue;
+
+}
